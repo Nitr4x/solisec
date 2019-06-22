@@ -35,7 +35,7 @@ Docker will download the Ubuntu image and then execute the installation steps.
 Once the build process is over, get and enjoy your new solidity security assessment platform!
 
 ```bash
-docker run --rm -it -v CONTRACTS_FOLDER:/tmp/data --name solisec solisec
+docker run --rm -it -v CONTRACTS_FOLDER:/tmp/data --name solisec nitr4x/solisec
 ```
 
 Explanations:
